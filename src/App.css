@@ -1,0 +1,112 @@
+.content {
+    display: flex;
+    align-items: start;
+}
+.context {
+    /* padding: 50px; */
+    width: calc(100% - 0px);
+    margin-top: 99px;
+    /* height: 100vh;
+    overflow: scroll; */
+}
+
+.logo-img {
+    width: 200px;
+    height: 60px;
+}
+.sidebar_items_2::-webkit-scrollbar , section.addproductsection::-webkit-scrollbar , .sidebar_items::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.addclient,
+.addproductsection,
+.task-section,
+.login-bg,
+.company-section,
+.first-expense-section,
+.first-pricelist-section,
+.first-sales-section,
+.first-stock-section {
+    height: 100vh !important;
+    overflow-x: scroll;
+}
+
+.form-control:focus,
+.dropdown-toggle:focus {
+    border-color: #777777 !important;
+
+}
+
+button#dropdownMenuButton {
+    box-shadow: none !important;
+}
+
+.dropdown-toggle:focus {
+    box-shadow: 1px 0px 0px 0px rgba(119, 119, 119, 0.75) !important;
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(119, 119, 119, 0.75);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(119, 119, 119, 0.75);
+
+}
+
+.addproductsection .nav-tabs .nav-link,
+.addclient .nav-tabs .nav-link,
+.task-section .nav-tabs .nav-link,
+.company-section .nav-tabs .nav-link,
+.first-pricelist-section .nav-tabs .nav-link {
+    border: none !important;
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productlisttable td,
+.companyListTable td,
+.clientsListTable td,
+.taskListsTable td,
+.expense_tabless td {
+    padding: 30px !important;
+}
+
+
+.productlisttable .row,
+.companyListTable .row,
+.taskListsTable .row,
+.clientsListTable .row,
+.expense_tabless .row {
+    border: 1px solid red;
+    border-radius: 20px;
+    background: wheat;
+    padding: 20px;
+}
+.error_msg_mobile{
+    display: none;
+}
+.nav-tabs .nav-link.active{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #467eb9!important;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3684d8!important;
+    background-color: #fff0 !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+.nav-tabs {
+    border-bottom: 1px solid #3684d8 !important;
+    color: #838c91!important;
+    font-size: 18px !important;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Main_App{
+    display: none;
+  }
+  .error_msg_mobile{
+    display: block;
+  }
+}

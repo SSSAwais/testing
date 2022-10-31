@@ -1,0 +1,23 @@
+/* .homepage {
+    padding-bottom: 100px;
+} */
+.slider-sli img{
+   border-radius: 0px !important;
+   padding-bottom: 50px;
+   max-width: 1875px;
+    max-height: 93vh;
+    object-fit: cover;
+}
+.slider-sli{
+    overflow: hidden;
+}
+
+.discription p{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.homes_page .icon i {
+    color: black;
+    font-size: 20px;
+}

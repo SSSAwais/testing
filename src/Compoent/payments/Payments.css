@@ -1,0 +1,27 @@
+.payment-section {
+    background: #E4EDF3;
+}
+.tablet-view{
+    width: 75% !important;
+}
+.tablet-view1{
+    width: 100%;
+}
+.payment-dropdown span{
+    font-weight: 700;
+}
+.recevieabless{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .tablet-view{
+            width: 100% !important;
+            margin-right: 0px !important;
+            
+    }
+    .paymet-inputs{
+        width: 63%;
+    }
+}
+

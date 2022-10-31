@@ -1,0 +1,143 @@
+.heading-row {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.addproductsection {
+    background: #E4EDF3;
+}
+
+.porduct-downdowns span {
+    font-weight: 700 !important;
+}
+
+/* .head h3 {
+    color: #0E68C8;
+    font-weight: 500;
+    font-size: 35px;
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-section {
+    padding-top: 30px;
+}
+
+.form-submit-button {
+    padding: 50px;
+    text-align: center;
+}
+
+button#dropdownMenuButton {
+    background: #fff;
+    border: 1px solid #ced4da;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+}
+
+.addproductsection .table {
+    background: white;
+}
+
+.productlisttable {
+
+    background: #F1F1F1;
+
+}
+
+.productlisttable td {
+    padding: 30px !important;
+}
+
+.productlisttable .row {
+    border: 1px solid red;
+    border-radius: 20px;
+    background: wheat;
+    padding: 20px;
+}
+
+.product_Information_section,
+.product_Information_section2,
+.product_Information_section3,
+.product_Information_section4,
+.product_Information_section5 {
+    position: relative;
+
+}
+
+.product_Error {
+    position: absolute;
+    top: 70px;
+}
+
+.product_Error2 {
+    position: absolute;
+    top: 100px;
+}
+
+.product_Error3 {
+    position: absolute;
+    top: 100px;
+}
+
+.product_Error4,
+.product_Error5 {
+    position: absolute;
+    top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .heading-row,
+    .form-submit-button {
+        padding: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .heading-row,
+    .form-submit-button {
+        padding: 20px;
+    }
+
+    .head h3 {
+        font-size: 25px;
+    }
+    .addproductsection   .input-section {
+        padding-top: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .input-section {
+        padding-top: 0px;
+    }
+}

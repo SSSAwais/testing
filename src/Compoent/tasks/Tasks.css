@@ -1,0 +1,29 @@
+.task-section{
+    background: #E4EDF3;
+}
+.task-section .table{
+    background: white;
+}
+.task_information_section , .task_information_section2 , .task_information_section3{
+    position: relative;
+}
+.task_error_msg{
+    position: absolute;
+    left: 46px;
+    top: 36px;
+}
+.task_error_msg2{
+    position: absolute;
+    left: 0px;
+    top: 36px;
+}
+.task_error_msg3{
+    position: absolute;
+    top: 35px;
+    left: 26%;
+}
+.task_error_msg4{
+    position: absolute;
+    top: 170px;
+    left: 26%;
+}

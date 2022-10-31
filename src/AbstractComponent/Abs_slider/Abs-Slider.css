@@ -1,0 +1,22 @@
+.slider-img img{
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.Slider-section{
+    text-align: center;
+}
+.clientname{
+    color: #7777;
+    font-size: 20px;
+    line-height: 30px;
+}
+.reviews {
+    background: none;
+    font-family: Source Sans Pro,sans-serif;
+    font-style: italic;
+    height: 100px;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    
+}

@@ -1,0 +1,31 @@
+.addclient{
+    background: #E4EDF3;
+}
+.addclient .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.addclient .table th{
+    background: white;
+}
+.client-info-box ,.client-info-box2, .client-info-box3, .client-info-box4 {
+    position: relative;
+
+}
+.addclient .clients ,.addclient .clients3 {
+    position: absolute;
+    top: 70px;
+    left: 5px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .addclient   .input-section {
+        padding-top: 12px;
+    }
+}

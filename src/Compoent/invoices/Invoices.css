@@ -1,0 +1,94 @@
+.search-bar input{
+    border-radius: 5px;
+    border:1px solid grey;
+    width: 100%;
+    height: 35px;
+    margin-right: 5px;
+    padding-left: 5px;
+    
+}
+.first-inventory-section{
+    background: #E4EDF3;
+    padding:15px 0px;
+
+}
+.items-section{
+    margin:10px 0px;
+}
+div i {
+    cursor: pointer;
+}
+.input-sec{
+    width: 35% !important;
+}
+.add-pro{
+    width: 30% !important;
+}
+.rupe-val p{
+    margin: 0px !important;
+    border: 1px solid grey;
+    padding: 5px;
+
+}
+.rupe-val p span{
+    margin-right: 10px;
+}
+.remarks input{
+margin-left: 10px;
+}
+
+.main-table  td{
+    border: 1px solid #dee2e6;
+}
+.first-inventory-section tr{
+    background:white;
+}
+.first-inventory-section td{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:500;
+ 
+}
+
+
+.nested-table td{
+    border:none;
+    padding:0px;
+}
+
+@media screen and (max-width: 992px) {
+    .input-sec {
+        width: 80% !important;
+    }  
+    .add-pro{
+        width: 20% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .search-bar{
+        flex-direction: column !important;
+     
+    }
+    .input-sec{
+        width: 100% !important;
+    } 
+    .add-pro{
+        width: 100% !important;
+    }
+    .add-pro{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .input-sec.d-flex {
+        flex-direction: column;
+
+    }
+    .input-sec button{
+        margin-top: 10px;
+       
+    }
+    .input-sec , .btn_add{
+        text-align: center !important;
+    }
+}

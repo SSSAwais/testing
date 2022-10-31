@@ -1,0 +1,8 @@
+.discription{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-disp{
+    display: flex;
+    flex-direction: column;
+}

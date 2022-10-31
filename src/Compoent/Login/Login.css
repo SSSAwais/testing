@@ -1,0 +1,92 @@
+.login-bg {
+    background-color: #F7F7F7;
+
+}
+
+.login-sec {
+    background: grey;
+}
+
+.login-sec h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.form-control-lg {
+    width: 400px !important;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.form-log img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+input:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .login-bg input.form-control.form-control-lg {
+    border: 1px solid #777777;
+    background: white !important;
+
+} */
+.login-bg .form-control {
+
+
+
+    color: #212529;
+    background-color: #fff;
+
+    border: 1px solid #ced4da !important;
+}
+
+.login-bg .form-control:focus {
+    border-color: #777777 !important;
+
+}
+
+.login-bg {
+    padding: 150px 0px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .login-bg {
+        padding: 100px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1260px) {
+    .login-bg {
+        padding: 75px 0px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .login-bg {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .login-bg {
+        padding: 50px 0px;
+    }
+}

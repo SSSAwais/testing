@@ -1,0 +1,17 @@
+
+
+.btn_add button{
+    border:none;
+    background:#393939;
+    color: white;
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+a.nav-link {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}

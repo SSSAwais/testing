@@ -1,0 +1,14 @@
+.Pagination a.page-link {
+    color: #495057;
+}
+.Pagination .page-link:focus {
+    outline: none  !important;
+    box-shadow: none !important; 
+}
+.pagination a.page-link {
+    color: #212529 !important;
+}
+.pagination li.page-item {
+    background: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+.refinput:read-only{
+    background: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .tablet_view_table_cashinvoice{
+        float: right;
+    }
+}

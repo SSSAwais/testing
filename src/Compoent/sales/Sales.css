@@ -1,0 +1,13 @@
+/* .sales-section{
+    background: #F7F7F7;
+} */
+.sales-section span{
+    margin-right: 10px;
+}
+.first-sales-section{
+    background: #E4EDF3;
+    padding:15px 0px;
+}
+.first-sales-section table{
+    background: white;
+}

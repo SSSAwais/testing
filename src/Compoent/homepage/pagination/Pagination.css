@@ -1,0 +1,145 @@
+.port-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center; 
+}
+.line{
+    background: linear-gradient(45deg,#3060e5,#048eea 45%,#3ee09f);
+    border-bottom-width: 3px;
+    display: block;
+    height: 3px;
+    margin: 5px auto 20px;
+    width: 50px;  
+}
+.subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 60px;
+    text-align: center; 
+}
+.portfolio .container-fluid{
+    padding:100px 0px;
+}
+.page-port{
+    border: 1px solid #ccc;
+    margin-bottom: 35px;
+    position: relative;
+}  
+.img-backside{
+    overflow: hidden;  
+    position: relative;
+}
+.port-backside{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.port-name{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+}
+.port-title{
+    background: #f7f7f7;
+    padding: 25px 30px 30px;
+    text-align: center;
+}
+.port-circle{
+    background-color: #1f1c1c;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 44px;
+    margin: 10px 5px;
+    min-height: 44px;
+    min-width: 44px;
+    opacity: 1;
+    text-align: center;
+}
+.page-port:hover .img-backside img{
+    transition: all .5s; 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .5s;
+} 
+
+.page-port .port-backside{
+    overflow: hidden;
+}
+.page-port:hover .port-backside{
+    background: linear-gradient(45deg,#3060e5,#048eea 45%,#3ee09f);
+    height: 100%;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2; 
+}
+.button-load{
+    /* background: linear-gradient(45deg,#3060e5,#048eea 45%,#3ee09f);
+     */
+     background: #393939;
+    border: none;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px 77px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+/* .button-load:hover{
+    background: none;
+    background: #3ee09f;
+    background: -webkit-linear-gradient(45deg, #3ee09f 0%, #048eea 55%, #3060e5 100%);
+    background: linear-gradient(45deg, #3ee09f 0%, #048eea 55%, #3060e5 100%);
+    border-color: #3060e5;
+} */
+.image_gallary {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 30px;
+    width: 80%!important;
+    z-index: 8;
+}
+.image_gallary_img {
+    height: 70vh;
+    position: relative;
+}
+.image_gallary_cover {
+    background-color: rgba(0,0,0,.85);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+.closeimgbox {
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    position: fixed;
+    right: 80px;
+    top: 30px;
+    top: 99px;
+}
